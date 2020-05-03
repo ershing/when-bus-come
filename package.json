@@ -1,0 +1,29 @@
+{
+  "name": "when-bus-come",
+  "version": "1.0.0",
+  "description": "a wechat robot which can tell you when the bus will come",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ershing/when-bus-come.git"
+  },
+  "keywords": [
+    "wechaty",
+    "robot",
+    "bus"
+  ],
+  "author": "ershing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ershing/when-bus-come/issues"
+  },
+  "homepage": "https://github.com/ershing/when-bus-come#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "wechaty": "^0.38.4",
+    "wechaty-puppet-padplus": "^0.6.2"
+  }
+}
